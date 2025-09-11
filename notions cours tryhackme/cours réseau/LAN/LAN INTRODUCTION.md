@@ -26,3 +26,7 @@ the adress used to identify the start of a network : the network adress
 the adress to identify a device within a network : the host adress
 
 the name to identify the device responsible to send datas to another network : gateway
+
+ARP: ARP allows a device to associate its MAC address with an IP address on the network. Each device on a network will keep a log of the MAC addresses associated with other devices in  a ledger
+
+comment 

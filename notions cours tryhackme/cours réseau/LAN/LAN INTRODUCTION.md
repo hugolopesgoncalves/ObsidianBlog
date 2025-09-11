@@ -1,0 +1,1 @@
+Star Topology : All devices connected to a main one (swith)

@@ -1,2 +1,2 @@
 Star Topology : All devices connected to a main one (switch/hub)
-Bus topolo
+Bus topology : All devices connected upon a single wire connection (backbone cable)

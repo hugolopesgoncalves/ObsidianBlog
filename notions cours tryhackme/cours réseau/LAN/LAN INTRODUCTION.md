@@ -17,4 +17,4 @@ a router is use to connect networks root = connecter
 subnets ip adress
 
 ![[Pasted image 20250911112502.png]]
-interessant dans ce tableau : les
+interessant dans ce tableau : les explications et exemple comme adresse generique de reseau xxx.xxx.xxx.0

@@ -17,4 +17,6 @@ a router is use to connect networks root = connecter
 subnets ip adress
 
 ![[Pasted image 20250911112502.png]]
-interessant dans ce tableau : les explications et exemple comme adresse generique de reseau xxx.xxx.xxx.0
+interessant dans ce tableau : les explications et exemple comme adresse generique de reseau xxx.xxx.xxx.0 pour adresse de réseau et xxx.xxx.xxx.254 pour adresse de routeur(gateway)
+
+une adresse de gateway/routeur est l'adresse par laquelle les infos transitent en dehors du r

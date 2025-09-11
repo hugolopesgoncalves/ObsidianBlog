@@ -20,3 +20,7 @@ subnets ip adress
 interessant dans ce tableau : les explications et exemple comme adresse generique de reseau xxx.xxx.xxx.0 pour adresse de réseau et xxx.xxx.xxx.254 pour adresse de routeur(gateway)
 
 une adresse de gateway/routeur est l'adresse par laquelle les infos transitent en dehors du réseau (sur un autre réseau)
+
+the adress used to identify the start of a network : the network adress
+
+the adress to identify a device within 

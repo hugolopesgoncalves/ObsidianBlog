@@ -14,4 +14,7 @@ if a wire is cut == all brocken
 a switch is use to connect devices
 a router is use to connect networks root = connecter
 
-di
+subnets ip adress
+
+![[Pasted image 20250911112502.png]]
+interessant dans ce tableau : les

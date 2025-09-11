@@ -1,1 +1,1 @@
-Star Topology : All devices connected to a main one (swith)
+Star Topology : All devices connected to a main one (switch/hub)

@@ -1,0 +1,2 @@
+troubleshot : résoudre
+bottleneck : embouteillage

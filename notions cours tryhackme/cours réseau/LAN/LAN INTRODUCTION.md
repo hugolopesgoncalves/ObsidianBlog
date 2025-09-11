@@ -9,3 +9,5 @@ if a device broke == still fonctionnable
 
 ![[Pasted image 20250911063726.png]]
 Ring topoloogy/token topology: computers are connected directly to each others to from a loop
+if a wire is cut == all brocken
+![[Pasted image 20250911064258.png]]

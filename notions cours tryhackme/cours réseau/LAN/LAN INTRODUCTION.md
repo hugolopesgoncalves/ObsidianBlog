@@ -29,4 +29,5 @@ the name to identify the device responsible to send datas to another network : g
 
 ARP: ARP allows a device to associate its MAC address with an IP address on the network. Each device on a network will keep a log of the MAC addresses associated with other devices in  a ledger
 
-comment 
+comment ça marche?
+Chaque appreil sur le reseau envoie une demande à tous les autres device

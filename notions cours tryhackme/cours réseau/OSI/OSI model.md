@@ -24,3 +24,24 @@ La couche liaison de données s'occupe aussi de préparer les données sous un f
 Pour simplifier, imagine que tu envoies une lettre : la couche réseau écrit l’adresse postale de la ville (adresse IP), mais la couche liaison de données écrit l’adresse précise de la maison (adresse MAC) et prépare l’enveloppe (trame) pour que la lettre arrive bien au bon destinataire. Elle vérifie aussi que la lettre n’est pas abîmée pendant le transport.
 
 Layer 3 : network 
+
+La couche réseau est la troisième couche du modèle OSI. C’est là que se passe la magie du routage et de la gestion des données pour voyager entre différents réseaux.
+
+Son premier rôle est de décider du meilleur chemin pour envoyer les données d’un ordinateur à un autre, même si ces ordinateurs sont très éloignés et connectés à travers plusieurs réseaux. Ce processus s’appelle le routage.
+
+Pour choisir ce chemin, la couche réseau regarde plusieurs critères :
+
+- Quel est le chemin le plus court ? (c’est-à-dire par où les données doivent passer en évitant trop de points relais).
+    
+- Quel chemin est le plus fiable, où il y a peu de pertes de données ?
+    
+- Quel chemin est le plus rapide, par exemple via des câbles en fibre optique plutôt que du cuivre.
+    
+
+La couche réseau utilise des adresses logiques appelées adresses IP (exemple : 192.168.1.100) pour savoir où envoyer les données. Les appareils appelés routeurs, qui fonctionnent à cette couche (aussi appelés « couche 3 »), prennent en charge cette fonction de livraison.
+
+Une autre chose importante : la couche réseau reconstitue les données provenant de la couche transport, qui les a découpées en petits morceaux, pour ensuite les diviser en paquets qu’elle va envoyer un par un.
+
+En résumé, la couche réseau agit comme un service postal intelligent : elle met une adresse complète sur chaque paquet, choisit le meilleur chemin pour l’envoyer, et fait en sorte que les paquets arrivent bien au bon endroit sur Internet ou dans un réseau plus grand.
+
+Layer 4: transport

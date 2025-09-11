@@ -4,4 +4,4 @@ Open Systems Interconnection
 when processes took place in the way of  how data travels, we call it encapsulation
 
 Layer 1: physical
-C'est simplement la m
+C'est tous le materiel 

@@ -5,3 +5,4 @@ backbone : collone vertebrale
 flaw : defaut
 within : in
 ledger : livre de compte
+retrieve: récuperer

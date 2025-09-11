@@ -3,4 +3,4 @@ Osi model is used as a framework dictating how the devices send, receives and in
 
 when processes took place in the way of  how data travels, we call it encapsulation
 
-Layer 1: ph
+Layer 1: physical

@@ -35,3 +35,4 @@ Chaque appareil sur le reseau envoie une demande à tous les autres device quel 
 1. **ARP Request**
 2. **ARP Reply**
 ![[Pasted image 20250911114556.png]]
+DHCP server

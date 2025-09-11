@@ -23,4 +23,4 @@ La couche liaison de données s'occupe aussi de préparer les données sous un f
 
 Pour simplifier, imagine que tu envoies une lettre : la couche réseau écrit l’adresse postale de la ville (adresse IP), mais la couche liaison de données écrit l’adresse précise de la maison (adresse MAC) et prépare l’enveloppe (trame) pour que la lettre arrive bien au bon destinataire. Elle vérifie aussi que la lettre n’est pas abîmée pendant le transport.
 
-Layer
+Layer 3 : network 

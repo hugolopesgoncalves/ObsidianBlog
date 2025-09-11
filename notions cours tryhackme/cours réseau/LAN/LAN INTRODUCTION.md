@@ -31,3 +31,7 @@ ARP: ARP allows a device to associate its MAC address with an IP address on the 
 
 comment ça marche?
 Chaque appareil sur le reseau envoie une demande à tous les autres device quel est la mac adress associé à chaque ip adress du reseau, le device concerné repond et l'apareil stoque la réponse dans un ledger (livre de compte)
+
+1. **ARP Request**
+2. **ARP Reply**
+3. ![[Pasted image 20250911114556.png]]

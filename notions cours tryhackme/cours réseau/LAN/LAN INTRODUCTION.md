@@ -11,4 +11,5 @@ if a device broke == still fonctionnable
 Ring topoloogy/token topology: computers are connected directly to each others to from a loop
 if a wire is cut == all brocken
 ![[Pasted image 20250911064258.png]]
-a switch 
+a switch is use to connect devices
+a router is use to connect networks

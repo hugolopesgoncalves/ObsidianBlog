@@ -13,3 +13,5 @@ if a wire is cut == all brocken
 ![[Pasted image 20250911064258.png]]
 a switch is use to connect devices
 a router is use to connect networks root = connecter
+
+di

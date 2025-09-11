@@ -23,4 +23,6 @@ une adresse de gateway/routeur est l'adresse par laquelle les infos transitent e
 
 the adress used to identify the start of a network : the network adress
 
-the adress to identify a device within 
+the adress to identify a device within a network : the host adress
+
+the name to identify the device responsible to send datas to another network : gateway

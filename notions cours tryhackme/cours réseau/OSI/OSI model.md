@@ -13,8 +13,12 @@ Cette couche ne comprend pas ce que les données veulent dire, elle s’occupe j
 
 Layer 2 data link
 
-La couche liaison de données, c’est la couche juste au-dessus de la couche physique. Si la couche physique s’occupe d’envoyer les bits (0 et 1) via le câble ou le signal, la couche liaison de données elle, s’assure que ces bits sont bien organisés et envoyés correctement d’un appareil à un autre sur le même réseau.
+La couche liaison de données est la deuxième couche du modèle OSI, juste au-dessus de la couche physique (qui s’occupe de transmettre les bits). Elle a plusieurs rôles importants.
 
-Imagine que tu écris un message sur des feuilles séparées (les bits envoyés par la couche physique), la couche liaison de données va rassembler ces feuilles en un paquet bien ordonné (qu’on appelle une trame), vérifier qu’il n’y a pas d’erreur, et gérer quand chaque appareil peut envoyer ses données pour éviter des collisions.
+D'abord, elle prend les données venant de la couche réseau (qui contient par exemple l'adresse IP du destinataire) et les organise en petits paquets qu'on appelle des trames. Ces trames contiennent aussi des informations importantes comme l'adresse physique, appelée adresse MAC (Media Access Control), qui est une adresse unique donnée à chaque carte réseau (NIC) de chaque appareil.
 
-Elle aide aussi à reconnaître les appareils réseau entre eux, par exemple grâce à des adresses physiques (comme les adresses MAC), pour que les données arrivent bien à la bonne machine.
+Cette adresse MAC est gravée dans la carte réseau par le fabricant et elle sert à identifier précisément qui doit recevoir les données sur le réseau local. En fait, quand on envoie des informations, c’est cette adresse physique que le réseau utilise pour savoir exactement où envoyer les données, pas l'adresse IP qui est plus logique et utilisée pour trouver des réseaux distants.
+
+La couche liaison de données s'occupe aussi de préparer les données sous un format adapté à la transmission, de vérifier que les données n’ont pas d’erreurs, et de réguler qui peut envoyer des données et quand, pour éviter que plusieurs appareils parlent en même temps et que ça crée des collisions.
+
+Pour simplifier, imagine que tu envoies une lettre : la couche réseau écrit l’adresse postale de la ville (adresse IP), mais la couche liaison de données écrit l’adresse précise de la maison (adresse MAC) et prépare l’enveloppe (trame) pour que la lettre arrive bien au bon destinataire. Elle vérifie aussi que la lettre n’est pas abîmée pendant le transport.

@@ -12,4 +12,4 @@ Ring topoloogy/token topology: computers are connected directly to each others t
 if a wire is cut == all brocken
 ![[Pasted image 20250911064258.png]]
 a switch is use to connect devices
-a router is use to connect networks
+a router is use to connect networks root = connecter

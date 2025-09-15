@@ -19,3 +19,4 @@ to discuss with onother device on the network, you must establish a connection o
 
 
 ![[Pasted image 20250915125016.png]]
+![[Pasted image 20250915125052.png]]

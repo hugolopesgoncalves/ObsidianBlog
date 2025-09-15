@@ -154,3 +154,30 @@ La couche session (couche 5 du modèle OSI) est chargée de **gérer, établir 
 - Si la connexion est interrompue, la couche session est responsable de **fermer la session** et devra en recréer une nouvelle si l’appel reprend.
 
 Layer presentation:
+
+La couche 6 du modèle OSI, appelée couche présentation, assure plusieurs fonctions clés pour que les données soient manipulées de manière uniforme et sécurisée entre applications différentes.
+
+---
+
+## Fonctions principales de la couche présentation
+
+- Elle agit comme un **traducteur** de données entre la couche application (couche 7) et la couche session (couche 5). Elle transforme les données de manière à ce que les systèmes avec des formats différents puissent les comprendre. Par exemple, convertir un texte d’un code ASCII à EBCDIC.
+    
+- Elle effectue la **compression des données** afin de réduire la taille des informations envoyées, ce qui optimise la bande passante et accélère la transmission.
+    
+- Elle gère le **chiffrement et déchiffrement des données** pour assurer la sécurité pendant leur transfert. C’est à ce niveau que s’appliquent des protocoles tels que SSL/TLS, utilisés pour sécuriser les sites web en HTTPS.
+    
+- Elle prend en charge la **normalisation de la syntaxe et des formats** (exemples : formats JPEG, MPEG pour images et vidéos).
+    
+
+---
+
+## En résumé
+
+On peut voir la couche présentation comme un **interprète** qui garantit que chaque application reçoit des données dans un format qu’elle comprend, tout en assurant leur confidentialité et en optimisant leur taille pour une transmission efficace.
+
+Par exemple, lorsqu’un mail est envoyé, peu importe le client mail utilisé par le destinataire, le contenu sera présenté correctement grâce aux fonctions de cette couche. De même, la sécurité HTTPS est assurée en partie au niveau de cette couche par le chiffrement des données.
+
+---
+
+Si besoin, un résumé simplifié ou une métaphore pédagogique peuvent être proposés pour mieux retenir ce concept complexe.

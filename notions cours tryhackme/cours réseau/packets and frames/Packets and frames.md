@@ -7,3 +7,4 @@ packets are such as a second envelop over the first envelop where data are stock
 TCP/IP is as OSI model a way of encapsulate datass
 
 some TCP/IP packets exemple those ones are called headers
+![[Pasted image 20250915124250.png]]

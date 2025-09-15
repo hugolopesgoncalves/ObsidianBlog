@@ -120,3 +120,35 @@ Le protocole UDP est beaucoup plus simple et rapide que TCP, mais ne propose pas
 - TCP est utilisé dans des situations où _l’intégrité_ des données est essentielle : navigation web, messagerie électronique, transfert de fichiers.
     
 - UDP est préféré lorsque la _vitesse_ est plus importante que la fiabilité : streaming vidéo, appels VoIP, découverte d’appareils sur un réseau.
+
+layer session
+
+La couche session (couche 5 du modèle OSI) est chargée de **gérer, établir et maintenir les connexions** entre deux ordinateurs. Une fois que les données ont été préparées par la couche présentation (couche 6), la couche session crée une session afin de transporter ces données de manière organisée et contrôlée.
+
+---
+
+## La couche session
+
+- Elle **crée une session** dès qu’une connexion est établie entre deux machines.
+    
+- Tant que la connexion est active, la session reste ouverte.
+    
+- Elle est responsable de **la fermeture de la session** lorsqu’elle n’est plus utilisée ou si la connexion est perdue.
+    
+
+---
+
+## Caractéristiques et fonctions
+
+- La couche session peut insérer des **points de contrôle** (checkpoints) dans la transmission. Ces points permettent, en cas de perte de données, de ne renvoyer que les parties manquantes depuis le dernier point sauvegardé, ce qui économise de la bande passante.
+    
+- Chaque **session est unique** : les données ne peuvent circuler qu’à l’intérieur de leur propre session et non pas à travers plusieurs sessions.
+    
+
+---
+
+## Exemple concret
+
+- Un appel vidéo utilise une session unique : tant que les deux utilisateurs sont connectés, la couche session maintient la communication et gère le flux.
+    
+- Si la connexion est interrompue, la couche session est responsable de **fermer la session** et devra en recréer une nouvelle si l’appel reprend.

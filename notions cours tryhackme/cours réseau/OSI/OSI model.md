@@ -45,3 +45,5 @@ Une autre chose importante : la couche réseau reconstitue les données provenan
 En résumé, la couche réseau agit comme un service postal intelligent : elle met une adresse complète sur chaque paquet, choisit le meilleur chemin pour l’envoyer, et fait en sorte que les paquets arrivent bien au bon endroit sur Internet ou dans un réseau plus grand.
 
 Layer 4: transport
+
+

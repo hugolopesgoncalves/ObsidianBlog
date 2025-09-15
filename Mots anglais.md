@@ -9,3 +9,4 @@ retrieve: récuperer
 framework : structure/charpente
 chunk : gros morceau
 grasp : empoigner
+strip awat : en

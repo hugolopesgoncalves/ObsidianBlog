@@ -8,3 +8,4 @@ ledger : livre de compte
 retrieve: récuperer
 framework : structure/charpente
 chunk : gros morceau
+grasp : empoigner

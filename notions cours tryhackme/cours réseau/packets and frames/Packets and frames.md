@@ -20,7 +20,9 @@ to discuss with onother device on the network, you must establish a connection o
 
 ![[Pasted image 20250915125016.png]]
 ![[Pasted image 20250915125052.png]]
-to be sure that the other d
+to be sure that the other device receive the correct datas, the first trame send a random number x and at each answer, this number is incremented by one 
+
+so we have syn x--
 
 How a connection is close
 ![[Pasted image 20250915125257.png]]

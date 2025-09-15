@@ -1,1 +1,1 @@
-a packets i the layer above the date that 
+a packets is the layer above the data layer that that encapsulate the data and ensure that all the frames gonna be correctly transmitted 

@@ -5,3 +5,4 @@ ARP : **A**ddress **R**esolution **P**rotocol
 DHCP : Dynamic Host Configuration Protocol
 OSI : Open Systems Interconnection 
 NIC : network interface card
+**TCP** : T**ransmission C**ontrol **P**rotocol 

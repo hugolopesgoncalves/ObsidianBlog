@@ -47,3 +47,76 @@ En résumé, la couche réseau agit comme un service postal intelligent : elle m
 Layer 4: transport
 
 
+La couche transport (couche 4 du modèle OSI) est essentielle car elle gère la transmission fiable ou non des données entre deux appareils. Elle s’appuie principalement sur deux protocoles : TCP et UDP. Voici une explication en français, adaptée à partir de ton texte :
+
+---
+
+## La couche transport (TCP/UDP)
+
+La couche transport du modèle OSI a pour rôle d’assurer le déplacement des données entre deux hôtes connectés à un réseau. Elle segmente les données reçues de la couche session (couche 5), les convertit en petits paquets, puis s’assure que ces paquets atteignent leur destination correcte. Deux protocoles principaux opèrent ici : TCP et UDP.
+
+---
+
+## Transmission Control Protocol (TCP)
+
+Le protocole TCP est conçu pour la **fiabilité** et la **garantie de livraison**.
+
+- Il établit une connexion stable entre les deux dispositifs pendant toute la durée de la transmission.
+    
+- Il incorpore des mécanismes de **contrôle d’erreurs**, garantissant que les paquets de données sont reçus et réassemblés dans le bon ordre.
+    
+
+## Avantages de TCP
+
+- Assure l’exactitude des données.
+    
+- Peut synchroniser deux appareils afin d’éviter une surcharge de données.
+    
+- Idéal pour les applications nécessitant une intégrité complète (navigateur web, e-mails, partage de fichiers).
+    
+
+## Inconvénients de TCP
+
+- Nécessite une connexion fiable (si un paquet manque, la transmission est bloquée).
+    
+- Connexion lente ou instable = goulot d’étranglement.
+    
+- Plus lent qu’UDP car il effectue de nombreux contrôles.
+    
+
+---
+
+## User Datagram Protocol (UDP)
+
+Le protocole UDP est beaucoup plus simple et rapide que TCP, mais ne propose pas les mêmes garanties.
+
+- Il _ne vérifie pas_ si les paquets atteignent leur destination.
+    
+- Il ne garantit pas la synchronisation ni l’ordre des données.
+    
+- Il ne réserve pas de connexion continue entre les deux appareils.
+    
+
+## Avantages de l’UDP
+
+- Transmission beaucoup plus rapide que TCP.
+    
+- Très flexible pour les développeurs, car le contrôle peut être transféré au logiciel applicatif.
+    
+- Ne monopolise pas une connexion permanente sur la machine.
+    
+
+## Inconvénients de l’UDP
+
+- Aucune garantie de réception des données.
+    
+- Connexion instable = expérience utilisateur médiocre.
+    
+
+---
+
+## Quand utiliser TCP ou UDP ?
+
+- TCP est utilisé dans des situations où _l’intégrité_ des données est essentielle : navigation web, messagerie électronique, transfert de fichiers.
+    
+- UDP est préféré lorsque la _vitesse_ est plus importante que la fiabilité : streaming vidéo, appels VoIP, découverte d’appareils sur un réseau.

@@ -181,3 +181,38 @@ Par exemple, lorsqu’un mail est envoyé, peu importe le client mail utilisé p
 ---
 
 Si besoin, un résumé simplifié ou une métaphore pédagogique peuvent être proposés pour mieux retenir ce concept complexe.
+
+layer application 
+
+La couche application (couche 7 du modèle OSI) est la couche la plus proche de l’utilisateur final. C’est elle qui fournit les **protocoles et règles** permettant aux utilisateurs d’interagir avec les données envoyées et reçues sur le réseau.
+
+---
+
+## Rôle de la couche application
+
+- Elle sert d’interface directe entre les utilisateurs et le réseau à travers des **applications** comme les clients email, navigateurs web, ou logiciels d’accès à des serveurs de fichiers.
+    
+- Elle détermine comment les utilisateurs accèdent aux services réseau et manipulent les données.
+    
+- C’est à ce niveau que fonctionnent de nombreux protocoles essentiels tels que :
+    
+    - HTTP (navigation web)
+        
+    - FTP (transfert de fichiers)
+        
+    - SMTP (envoi d’emails)
+        
+    - DNS (traduction des noms de domaine en adresses IP)
+        
+
+---
+
+## Exemple concret
+
+- Quand un utilisateur tape une adresse web dans un navigateur, la couche application gère la demande, utilise DNS pour traduire ce nom en adresse IP, puis récupère les pages web via HTTP ou HTTPS.
+    
+- Les logiciels comme FileZilla permettent d’explorer ou transférer des fichiers sur un serveur via FTP, toujours grâce aux protocoles de cette couche.
+    
+
+---
+

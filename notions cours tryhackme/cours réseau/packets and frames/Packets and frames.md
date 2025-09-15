@@ -22,7 +22,6 @@ to discuss with onother device on the network, you must establish a connection o
 ![[Pasted image 20250915125052.png]]
 to be sure that the other device receive the correct datas, the first trame send a random number x and at each answer, this number is incremented by one 
 
-so we have syn x--
-
+so we have syn x/syn ack x+1/ack x+2
 How a connection is close
 ![[Pasted image 20250915125257.png]]

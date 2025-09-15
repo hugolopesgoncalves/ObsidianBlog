@@ -153,4 +153,4 @@ La couche session (couche 5 du modèle OSI) est chargée de **gérer, établir 
     
 - Si la connexion est interrompue, la couche session est responsable de **fermer la session** et devra en recréer une nouvelle si l’appel reprend.
 
-Layer presentation
+Layer presentation:

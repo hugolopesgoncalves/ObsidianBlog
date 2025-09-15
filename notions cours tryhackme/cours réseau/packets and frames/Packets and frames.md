@@ -11,4 +11,4 @@ some TCP/IP packets exemple those ones are called headers
  TCP just have 4 layers of encapsulaation so its a summarize version of the osi model
 
 the 3 way handshake
-to discuss with onother device on the network, you have to manage to create a connection on the devices
+to discuss with onother device on the network, you must establish a connection on both devices

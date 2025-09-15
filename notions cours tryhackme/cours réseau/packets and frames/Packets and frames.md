@@ -5,6 +5,7 @@ in this exemple, i know that technically packets are also data but when i speak 
 packets are such as a second envelop over the first envelop where data are stocked
 
 TCP/IP is as OSI model a way of encapsulate datass
+![[Pasted image 20250915124849.png]]
 
 some TCP/IP packets exemple those ones are called headers
 ![[Pasted image 20250915124250.png]]
@@ -15,5 +16,6 @@ some TCP/IP packets exemple those ones are called headers
 the 3 way handshake
 to discuss with onother device on the network, you must establish a connection on both devices
 
-![[Pasted image 20250915124849.png]]
 
+
+![[Pasted image 20250915125016.png]]

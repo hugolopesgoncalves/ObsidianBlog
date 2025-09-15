@@ -152,3 +152,5 @@ La couche session (couche 5 du modèle OSI) est chargée de **gérer, établir 
 - Un appel vidéo utilise une session unique : tant que les deux utilisateurs sont connectés, la couche session maintient la communication et gère le flux.
     
 - Si la connexion est interrompue, la couche session est responsable de **fermer la session** et devra en recréer une nouvelle si l’appel reprend.
+
+Layer presentation

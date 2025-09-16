@@ -24,4 +24,4 @@ to be sure that the other device receive the correct datas, the first trame send
 
 so we have syn x/syn ack x+1/ack x+2
 How a connection is close
-![[Pasted image 20250915125257.png]]
+

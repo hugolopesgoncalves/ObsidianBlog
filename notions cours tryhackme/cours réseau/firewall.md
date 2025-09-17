@@ -8,3 +8,4 @@ it permit data to traval with those categories.what protocol is the traffic usin
 .is the destination source trustable
 .what port is the traffic for
 .what protocol is the traffic unsing (you can for exemple ban a certain packet UDP or TCp to be ban for exemple)
+![[Pasted image 20250917045538.png]]

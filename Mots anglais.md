@@ -10,3 +10,4 @@ framework : structure/charpente
 chunk : gros morceau
 grasp : empoigner
 strip awat : enlever
+hence : d'ou

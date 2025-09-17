@@ -1,6 +1,18 @@
 ![[Pasted image 20250911120141.png]]
 
-
+- **Couche 1 - Physique** : Cette couche transmet les bits bruts sur un support physique comme des câbles ou ondes. Elle s’occupe des aspects électriques, optiques ou radio, et de la vitesse de transmission.
+    
+- **Couche 2 - Liaison de données** : Elle organise les bits en trames, gère les adresses physiques (MAC), contrôle les erreurs et le flux pour assurer une transmission fiable entre deux nœuds.
+    
+- **Couche 3 - Réseau** : Cette couche s’occupe du routage des paquets entre différents réseaux à l’aide d’adresses logiques (IP), en déterminant le chemin optimal pour les données.
+    
+- **Couche 4 - Transport** : Elle assure la communication fiable entre les systèmes sources et destinations, gérant la segmentation des données, le contrôle de flux et la correction d’erreurs (ex. TCP).
+    
+- **Couche 5 - Session** : Elle établit, maintient et termine les connexions (sessions) entre applications sur deux machines, gérant les dialogues et synchronisations.
+    
+- **Couche 6 - Présentation** : Cette couche traduit, compresse et crypte les données pour qu’elles soient compréhensibles par l’application, assurant une représentation cohérente entre systèmes.
+    
+- **Couche 7 - Application** : C’est l’interface directe avec l’utilisateur et les applications réseau. Elle fournit des services comme le courrier électronique, la navigation web et le transfert de fichiers.
 
 
 Osi model is used as a framework dictating how the devices send, receives and interpret data

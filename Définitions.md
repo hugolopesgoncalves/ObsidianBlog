@@ -6,3 +6,4 @@ DHCP : Dynamic Host Configuration Protocol
 OSI : Open Systems Interconnection 
 NIC : network interface card
 **TCP** : T**ransmission C**ontrol **P**rotocol 
+Sniffing : regarder les datas qui transitent sur un reseau

@@ -14,4 +14,6 @@ different types of DNS
 
 A Record for ipv4 RESOLVING 
 
-AAAA
+AAAA record (quad record) for ipv6 RESOLVING
+
+mx record for emails

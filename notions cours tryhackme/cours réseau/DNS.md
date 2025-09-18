@@ -7,4 +7,6 @@ a list of a large amount of ltd's here [click here](https://data.iana.org/TLD/tl
 second main level is what is before the last dot for exemple google.com google is the second main level domain
 
 
-subdomain is what is before the second to last dot for exemple in re
+subdomain is what is before the second to last dot for exemple in register.google.com register is the subdomain
+
+you can have as much subdomain you want on the same second main level domain

@@ -1,3 +1,5 @@
 ![[Pasted image 20250918094318.png]]there are different type od tdl top level domain
-gtdl: generic ones 
-cctdl: country ones fr,
+gtdl: generic ones com,edu,...
+cctdl: country ones fr,ca,de...
+
+a list of a large amount of ltd's here 

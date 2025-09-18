@@ -18,4 +18,4 @@ AAAA record (quad record) for ipv6 RESOLVING
 
 mx record for emails (cela renvoie vers le serveur principal qui doit s'occupper de gerer envoyer/recevoir les mails si le principal est down, on passe au suivant dans la liste de prioritées etc...)
 
-TXT Record pour les fichiers contenant du texte même chose que pour mx pointe vers le serveur responsa
+TXT Record pour les fichiers contenant du texte même chose que pour mx pointe vers le serveur responsable de leurs gestions

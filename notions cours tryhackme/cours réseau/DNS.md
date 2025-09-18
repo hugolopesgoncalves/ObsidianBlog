@@ -10,3 +10,8 @@ second main level is what is before the last dot for exemple google.com google i
 subdomain is what is before the second to last dot for exemple in register.google.com register is the subdomain
 
 you can have as much subdomain you want on the same second main level domain
+different types of DNS
+
+A Record for ipv4 RESOLVING 
+
+AAAA

@@ -8,6 +8,7 @@ NIC : network interface card
 **TCP** : T**ransmission C**ontrol **P**rotocol 
 Sniffing : regarder les datas qui transitent sur un reseau
 DNS: domain name sarver (its the way you can communicate with an ip adress with his corresponding name)
+**URL Uniform Resource Locator)**
 ## PPT / PPP (Point-to-Point Protocol)
 
 Protocole de couche liaison de données (couche 2 du modèle OSI) qui permet d’établir une connexion directe entre deux nœuds réseau en encapsulant des datagrammes multi-protocoles. Il assure la gestion de la liaison, l’authentification, et la négociation des protocoles réseau, tout en étant largement utilisé pour les connexions Internet par modem, ADSL ou autres liaisons point à point.

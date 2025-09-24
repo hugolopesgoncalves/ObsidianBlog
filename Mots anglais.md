@@ -12,3 +12,4 @@ grasp : empoigner
 strip awat : enlever
 hence : d'ou
 query : réponse
+snippet : un bout

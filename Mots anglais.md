@@ -14,4 +14,4 @@ hence : d'ou
 query : réponse
 snippet : un bout
 e.g : par exemple
-lookup : 
+lookup :  recherche
